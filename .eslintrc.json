@@ -10,12 +10,14 @@
     "ecmaVersion": "latest"
   },
   "rules": {
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": "off",
     "no-underscore-dangle": [
       "error",
       {
         "allowAfterThis": true
       }
-    ]
+    ],
+    "camelcase": "off",
+    "object-curly-newline": ["error", { "never": true }]
   }
 }
