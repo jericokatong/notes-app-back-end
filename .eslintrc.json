@@ -18,6 +18,7 @@
       }
     ],
     "camelcase": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "no-useless-catch": "off"
   }
 }
